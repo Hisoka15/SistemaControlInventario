@@ -1,9 +1,17 @@
 {
-    "name": "laravel/laravel",
+    "name": "hisoka15/sistema-control-inventario",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "Sistema de Control de Inventario - Proyecto educativo NO COMERCIAL por Carlos Briceño",
+    "keywords": ["inventario", "control", "laravel", "educativo", "sistema"],
+    "license": "CC-BY-NC-4.0",
+    "authors": [
+        {
+            "name": "Carlos Briceño",
+            "email": "tu-correo@ejemplo.com",
+            "homepage": "https://github.com/Hisoka15",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "barryvdh/laravel-dompdf": "^3.1",
@@ -62,6 +70,10 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
+    },
+    "support": {
+        "issues": "https://github.com/Hisoka15/SistemaControlInventario/issues",
+        "source": "https://github.com/Hisoka15/SistemaControlInventario"
     },
     "minimum-stability": "stable",
     "prefer-stable": true
